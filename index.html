@@ -587,6 +587,7 @@
       position: absolute;
       top: -18px;
       right: -18px;
+      z-index: 10;
       width: 44px;
       height: 44px;
       border-radius: 50%;
@@ -610,11 +611,12 @@
 
     @media (max-width: 768px) {
       .lightbox-close {
-        top: -12px;
-        right: -12px;
-        width: 38px;
-        height: 38px;
-        font-size: 1.3rem;
+        position: fixed;
+        top: 14px;
+        right: 14px;
+        width: 40px;
+        height: 40px;
+        font-size: 1.4rem;
       }
     }
 
@@ -951,7 +953,7 @@
           <a href="https://lin.ee/uvywTWo" target="_blank" rel="noopener" aria-label="Line">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 5.69 2 10.24c0 4.08 3.55 7.5 8.35 8.15.33.07.77.22.88.5.1.26.07.66.03.92l-.14.85c-.04.26-.2 1.02.89.56 1.1-.46 5.9-3.48 8.05-5.95C21.5 13.6 22 11.99 22 10.24 22 5.69 17.52 2 12 2zM7.6 13.1H5.62c-.29 0-.52-.23-.52-.52V8.63c0-.29.23-.52.52-.52s.52.23.52.52v3.43H7.6c.29 0 .52.23.52.52s-.23.52-.52.52zm2.04-.52c0 .29-.23.52-.52.52s-.52-.23-.52-.52V8.63c0-.29.23-.52.52-.52s.52.23.52.52v3.95zm4.76 0c0 .22-.14.42-.35.49a.55.55 0 0 1-.17.03c-.16 0-.32-.08-.42-.21l-2.03-2.76v2.45c0 .29-.23.52-.52.52s-.52-.23-.52-.52V8.63c0-.22.14-.42.36-.49.05-.02.11-.03.16-.03.16 0 .32.08.42.21l2.03 2.76V8.63c0-.29.23-.52.52-.52s.52.23.52.52v3.95zm3.2-2.5c.29 0 .52.23.52.52s-.23.52-.52.52h-1.46v.94h1.46c.29 0 .52.23.52.52s-.23.52-.52.52h-1.98c-.29 0-.52-.23-.52-.52V8.63c0-.29.23-.52.52-.52h1.98c.29 0 .52.23.52.52s-.23.52-.52.52h-1.46v.94h1.46z"/></svg>
           </a>
-          <a href="/cdn-cgi/l/email-protection#2c4f4342584d4f580240584158444d45404d42486c4b414d4540024f4341135f594e46494f5811cc9486cc9481cc94b6cc94bacc949ecc948dcc94aecc95a5cc9481cc948dcc9495cc9489cc9486cc9498cc94b5cc94a8cc95a5cc949e0c6078610c6d594845430c6f494258495e" aria-label="อีเมล">
+          <a href="/cdn-cgi/l/email-protection#c1a2aeafb5a0a2b5efadb5acb5a9a0a8ada0afa581a6aca0a8adefa2aeacfeb2b4a3aba4a2b5fc21796b21796c21795b21795721797321796021794321784821796c21796021797821796421796b217975217958217945217848217973e18d958ce180b4a5a8aee182a4afb5a4b3" aria-label="อีเมล">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
           </a>
         </div>
